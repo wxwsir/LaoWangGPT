@@ -310,8 +310,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "我是刘路大校，请讲！",
+    Error: "刘路出错了，请稍后重试",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
@@ -336,7 +336,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "插件",
+    Name: "插件(未开放)",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",
