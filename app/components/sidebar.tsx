@@ -245,7 +245,7 @@ export function SideBar(props: { className?: string }) {
         </script>
         <a href="https://www.kda-xinxinzi.com/#/" target="_blank">刘路大校</a>
       </div>
-      <div class="icp">
+      <div>
         <a href="https://beian.miit.gov.cn/" target="_blank">吉ICP备2022001026号-1</a>
       </div>
     </footer>
