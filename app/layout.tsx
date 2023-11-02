@@ -36,7 +36,7 @@ export default function RootLayout({
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
       <body>
-
+          <a href="https://www.kda-xinxinzi.com/" target="_blank">刘路大校</a>
       </body>
     </html>
   );
