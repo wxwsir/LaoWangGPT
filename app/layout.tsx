@@ -46,10 +46,7 @@ export default function RootLayout({
       <body>
         <footer>
           <div class="container">
-            Copyright © 2021
-            <script>
-              document.write(" - " + new Date().getFullYear());
-            </script>
+            Copyright © 2021-2023
             <a href="https://www.kda-xinxinzi.com/" target="_blank">刘路大校</a>
           </div>
           <div class="container">
