@@ -34,22 +34,15 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-          <style>
-            a {
-                text-decoration: none;
-            }
-            .container {
-               text-align: center;
-            }
-          </style>
       </head>
       <body>
+        {children}
         <footer>
-          <div class="container">
+          <div>
             Copyright © 2021-2023
             <a href="https://www.kda-xinxinzi.com/" target="_blank">刘路大校</a>
           </div>
-          <div class="container">
+          <div>
             <a href="https://beian.miit.gov.cn/" target="_blank">吉ICP备2022001026号-1</a>
           </div>
         </footer>
