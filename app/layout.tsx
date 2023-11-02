@@ -38,13 +38,6 @@ export default function RootLayout({
       <body>
       <footer>
       <div style="text-align: center;">
-        Copyright © 2021
-        <script>
-          document.write(" - " + new Date().getFullYear());
-        </script>
-        <a href="https://www.kda-xinxinzi.com/" target="_blank">刘路大校</a>
-      </div>
-      <div style="text-align: center;">
         <a href="https://beian.miit.gov.cn/" target="_blank">吉ICP备2022001026号-1</a>
       </div>
     </footer>
