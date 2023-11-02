@@ -37,7 +37,7 @@ export default function RootLayout({
       </head>
       <body>
       <footer>
-      <div style="text-align: center;">
+      <div>
         <a href="https://beian.miit.gov.cn/" target="_blank">吉ICP备2022001026号-1</a>
       </div>
     </footer>
