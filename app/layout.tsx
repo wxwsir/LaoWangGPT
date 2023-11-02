@@ -35,7 +35,21 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer>
+          <div>
+            Copyright © 2021
+            <script>
+              document.write(" - " + new Date().getFullYear());
+            </script>
+            <a href="https://www.kda-xinxinzi.com/" target="_blank">刘路大校</a>
+          </div>
+          <div>
+            <a href="https://beian.miit.gov.cn/" target="_blank">吉ICP备2022001026号-1</a>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }
